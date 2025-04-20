@@ -1,0 +1,560 @@
+{
+    "fields": {
+        "doctor_full_name": {
+            "type": "Text",
+            "pdf_field_name": "name",
+            "field_xref": 287
+        },
+        "doctor_full_address": {
+            "type": "Text",
+            "pdf_field_name": "address",
+            "field_xref": 290
+        },
+        "doctor_phone": {
+            "type": "Text",
+            "pdf_field_name": "contactNumber1",
+            "field_xref": 291
+        },
+        "doctor_license_number": {
+            "type": "Text",
+            "pdf_field_name": "ClinicianPractitioner Number",
+            "field_xref": 297
+        },
+        "patient_health_no": {
+            "type": "Text",
+            "pdf_field_name": "Health Number",
+            "field_xref": 304
+        },
+        "patient_birth_year": {
+            "type": "Text",
+            "pdf_field_name": "y_birth2",
+            "field_xref": 309
+        },
+        "patient_birth_month": {
+            "type": "Text",
+            "pdf_field_name": "m_birth2",
+            "field_xref": 310
+        },
+        "patient_birth_day": {
+            "type": "Text",
+            "pdf_field_name": "d_birth2",
+            "field_xref": 311
+        },
+        "patient_province": {
+            "type": "Text",
+            "pdf_field_name": "Province",
+            "field_xref": 316
+        },
+        "patient_prnumber": {
+            "type": "Text",
+            "pdf_field_name": "Other Provincial Registration Number",
+            "field_xref": 317
+        },
+        "patient_phone": {
+            "type": "Text",
+            "pdf_field_name": "patientTelephone",
+            "field_xref": 318
+        },
+        "patient_health_info": {
+            "type": "Text",
+            "pdf_field_name": "Additional Clinical Information eg diagnosis",
+            "field_xref": 319
+        },
+        "patient_last_name": {
+            "type": "Text",
+            "pdf_field_name": "Patient’s Last Name as per OHIP Card",
+            "field_xref": 322
+        },
+        "patient_first_name": {
+            "type": "Text",
+            "pdf_field_name": "patienFname",
+            "field_xref": 323
+        },
+        "patient_middle_name": {
+            "type": "Text",
+            "pdf_field_name": "patienLname",
+            "field_xref": 324
+        },
+        "patient_full_address": {
+            "type": "Text",
+            "pdf_field_name": "Patient's Address including Postal Code",
+            "field_xref": 329
+        },
+        "neonatal_child_age": {
+            "type": "Text",
+            "pdf_field_name": "chidAge",
+            "field_xref": 357
+        },
+        "neonatal_child_hours": {
+            "type": "Text",
+            "pdf_field_name": "chidHours",
+            "field_xref": 358
+        },
+        "therapeutic_drug_one": {
+            "type": "Text",
+            "pdf_field_name": "drugName1",
+            "field_xref": 360
+        },
+        "therapeutic_drug_two": {
+            "type": "Text",
+            "pdf_field_name": "drugName2",
+            "field_xref": 361
+        },
+        "drug_collect1": {
+            "type": "Text",
+            "pdf_field_name": "timeCollect1.0",
+            "field_xref": 395
+        },
+        "drug_collect2": {
+            "type": "Text",
+            "pdf_field_name": "timeCollect2.0",
+            "field_xref": 396
+        },
+        "specify_chlamydia": {
+            "type": "Text",
+            "pdf_field_name": "specify1",
+            "field_xref": 366
+        },
+        "specify_gc": {
+            "type": "Text",
+            "pdf_field_name": "specify2",
+            "field_xref": 369
+        },
+        "specify_wound": {
+            "type": "Text",
+            "pdf_field_name": "specify3",
+            "field_xref": 370
+        },
+        "neonatal_doctor_phone": {
+            "type": "Text",
+            "pdf_field_name": "clinicianTel",
+            "field_xref": 359
+        },
+        "neonatal_patient_phone": {
+            "type": "Text",
+            "pdf_field_name": "patientTel",
+            "field_xref": 364
+        },
+        "other_tests1": {
+            "type": "Text",
+            "pdf_field_name": "Other Tests - one test per line, GC specify source",
+            "field_xref": 371
+        },
+        "other_tests2": {
+            "type": "Text",
+            "pdf_field_name": "Other Tests - one test per line, Sputum",
+            "field_xref": 370
+        },
+        "other_tests3": {
+            "type": "Text",
+            "pdf_field_name": "Other Tests - one test per line, Throat",
+            "field_xref": 386
+        },
+        "other_tests4": {
+            "type": "Text",
+            "pdf_field_name": "Other Tests - one test per line, Wound specify source",
+            "field_xref": 392
+        },
+        "other_tests5": {
+            "type": "Text",
+            "pdf_field_name": "Other Tests - one test per line, Urine",
+            "field_xref": 415
+        },
+        "other_tests6": {
+            "type": "Text",
+            "pdf_field_name": "Other Tests - one test per line, Stool Culture",
+            "field_xref": 420
+        },
+        "other_tests7": {
+            "type": "Text",
+            "pdf_field_name": "Other Tests - one test per line, Stool Ova & Parasites",
+            "field_xref": 426
+        },
+        "other_tests8": {
+            "type": "Text",
+            "pdf_field_name": "Other Tests - one test per line, Other Swabs  Pus specify source",
+            "field_xref": 429
+        },
+        "other_tests9": {
+            "type": "Text",
+            "pdf_field_name": "Other Tests - one test per line, Row 15",
+            "field_xref": 432
+        },
+        "other_tests10": {
+            "type": "Text",
+            "pdf_field_name": "Other Tests - one test per line, Row 16",
+            "field_xref": 436
+        },
+        "other_tests11": {
+            "type": "Text",
+            "pdf_field_name": "Other Tests - one test per line, Row 17",
+            "field_xref": 438
+        },
+        "time_last_dose1": {
+            "type": "Text",
+            "pdf_field_name": "timeCollect1.1",
+            "field_xref": 418
+        },
+        "time_last_dose2": {
+            "type": "Text",
+            "pdf_field_name": "timeCollect2.1",
+            "field_xref": 419
+        },
+        "time_next_dose1": {
+            "type": "Text",
+            "pdf_field_name": "timeCollect1.2",
+            "field_xref": 423
+        },
+        "time_next_dose2": {
+            "type": "Text",
+            "pdf_field_name": "timeCollect2.2",
+            "field_xref": 424
+        },
+        "other_swabs_specify": {
+            "type": "Text",
+            "pdf_field_name": "OtherSwabs",
+            "field_xref": 425
+        },
+        "specimen_collect_time": {
+            "type": "Text",
+            "pdf_field_name": "collectTime",
+            "field_xref": 435
+        },
+        "specimen_collect_date": {
+            "type": "Text",
+            "pdf_field_name": "SCollectionDate",
+            "field_xref": 437
+        },
+        "date": {
+            "type": "Text",
+            "pdf_field_name": "Date",
+            "field_xref": 441
+        },
+
+        "patient_sex": {
+            "type": "CheckBox",
+            "pdf_field_name": "sex",
+            "field_xref": 306,
+            "on_state": "M"
+        },
+        "insurance_ohip": {
+            "type": "CheckBox",
+            "pdf_field_name": "checkOne",
+            "field_xref": 312,
+            "on_state": "ohip"
+        },
+        "insurance_uninsured": {
+            "type": "CheckBox",
+            "pdf_field_name": "checkOne",
+            "field_xref": 314,
+            "on_state": "un"
+        },
+        "insurance_wsib": {
+            "type": "CheckBox",
+            "pdf_field_name": "checkOne",
+            "field_xref": 315,
+            "on_state": "wsib"
+        },
+        "glucose": {
+            "type": "CheckBox",
+            "pdf_field_name": "row1.0",
+            "field_xref": 330,
+            "on_state": "Yes"
+        },
+        "glucose_test_random": {
+            "type": "CheckBox",
+            "pdf_field_name": "biochemistry",
+            "field_xref": 331,
+            "on_state": "ran"
+        },
+        "glucose_test_fasting": {
+            "type": "CheckBox",
+            "pdf_field_name": "biochemistry",
+            "field_xref": 332,
+            "on_state": "fasting"
+        },
+        "hba1c": {
+            "type": "CheckBox",
+            "pdf_field_name": "row1.1",
+            "field_xref": 335,
+            "on_state": "Yes"
+        },
+        "creatinine": {
+            "type": "CheckBox",
+            "pdf_field_name": "row1.2",
+            "field_xref": 336,
+            "on_state": "Yes"
+        },
+        "uric_acid": {
+            "type": "CheckBox",
+            "pdf_field_name": "row1.3",
+            "field_xref": 337,
+            "on_state": "Yes"
+        },
+        "sodium": {
+            "type": "CheckBox",
+            "pdf_field_name": "row1.4",
+            "field_xref": 338,
+            "on_state": "Yes"
+        },
+        "potassium": {
+            "type": "CheckBox",
+            "pdf_field_name": "row1.5",
+            "field_xref": 339,
+            "on_state": "Yes"
+        },
+        "alt": {
+            "type": "CheckBox",
+            "pdf_field_name": "row1.6",
+            "field_xref": 340,
+            "on_state": "Yes"
+        },
+        "alk_phosphatase": {
+            "type": "CheckBox",
+            "pdf_field_name": "row1.7",
+            "field_xref": 341,
+            "on_state": "Yes"
+        },
+        "bilirubin": {
+            "type": "CheckBox",
+            "pdf_field_name": "row1.8",
+            "field_xref": 342,
+            "on_state": "Yes"
+        },
+        "albumin": {
+            "type": "CheckBox",
+            "pdf_field_name": "row1.9",
+            "field_xref": 343,
+            "on_state": "Yes"
+        },
+        "lipid_assessment": {
+            "type": "CheckBox",
+            "pdf_field_name": "row1.13",
+            "field_xref": 344,
+            "on_state": "Yes"
+        },
+        "albumin_creatinine_ratio": {
+            "type": "CheckBox",
+            "pdf_field_name": "row1.14",
+            "field_xref": 345,
+            "on_state": "Yes"
+        },
+        "urinalysis": {
+            "type": "CheckBox",
+            "pdf_field_name": "row1.15",
+            "field_xref": 346,
+            "on_state": "Yes"
+        },
+        "neonatal_bilirubin": {
+            "type": "CheckBox",
+            "pdf_field_name": "row1.16",
+            "field_xref": 347,
+            "on_state": "Yes"
+        },
+        "neonatal_bilirubin2": {
+            "type": "CheckBox",
+            "pdf_field_name": "row1.19",
+            "field_xref": 348,
+            "on_state": "Yes"
+        },
+        "therapeutic_drug": {
+            "type": "CheckBox",
+            "pdf_field_name": "row1.20",
+            "field_xref": 349,
+            "on_state": "Yes"
+        },
+        "therapeutic_drug2": {
+            "type": "CheckBox",
+            "pdf_field_name": "row1.21",
+            "field_xref": 350,
+            "on_state": "Yes"
+        },
+        "viral_hep_acute": {
+            "type": "CheckBox",
+            "pdf_field_name": "acuteHep",
+            "field_xref": 334,
+            "on_state": "ahep"
+        },
+        "viral_hep_chronic": {
+            "type": "CheckBox",
+            "pdf_field_name": "acuteHep",
+            "field_xref": 351,
+            "on_state": "ch"
+        },
+        "viral_hep_immune": {
+            "type": "CheckBox",
+            "pdf_field_name": "acuteHep",
+            "field_xref": 352,
+            "on_state": "imm"
+        },
+        "viral_hep_immune_a": {
+            "type": "CheckBox",
+            "pdf_field_name": "viralHepatits.3a",
+            "field_xref": 353,
+            "on_state": "a"
+        },
+        "viral_hep_immune_b": {
+            "type": "CheckBox",
+            "pdf_field_name": "viralHepatits.3b",
+            "field_xref": 354,
+            "on_state": "b"
+        },
+        "viral_hep_immune_c": {
+            "type": "CheckBox",
+            "pdf_field_name": "viralHepatits.3c",
+            "field_xref": 355,
+            "on_state": "c"
+        },
+        "total_psa": {
+            "type": "CheckBox",
+            "pdf_field_name": "PSA",
+            "field_xref": 356,
+            "on_state": "T"
+        },
+        "free_psa": {
+            "type": "CheckBox",
+            "pdf_field_name": "PSA",
+            "field_xref": 365,
+            "on_state": "F"
+        },
+        "insured_psa": {
+            "type": "CheckBox",
+            "pdf_field_name": "insuredPSA",
+            "field_xref": 367,
+            "on_state": "i"
+        },
+        "uninsured_psa": {
+            "type": "CheckBox",
+            "pdf_field_name": "insuredPSA",
+            "field_xref": 368,
+            "on_state": "u"
+        },
+        "insured_vitd": {
+            "type": "CheckBox",
+            "pdf_field_name": "insuredvitD",
+            "field_xref": 362,
+            "on_state": "i"
+        },
+        "uninsured_vitd": {
+            "type": "CheckBox",
+            "pdf_field_name": "insuredvitD",
+            "field_xref": 363,
+            "on_state": "u"
+        },
+        "cbc": {
+            "type": "CheckBox",
+            "pdf_field_name": "hermatology1.0",
+            "field_xref": 333,
+            "on_state": "fasting"
+        },
+        "prothrombin_time": {
+            "type": "CheckBox",
+            "pdf_field_name": "hermatology1.1",
+            "field_xref": 397,
+            "on_state": "fasting"
+        },
+        "pregnancy_urine": {
+            "type": "CheckBox",
+            "pdf_field_name": "hermatology1.3",
+            "field_xref": 398,
+            "on_state": "fasting"
+        },
+        "mononucleosis_screen": {
+            "type": "CheckBox",
+            "pdf_field_name": "hermatology1.4",
+            "field_xref": 399,
+            "on_state": "fasting"
+        },
+        "rubella": {
+            "type": "CheckBox",
+            "pdf_field_name": "hermatology1.5",
+            "field_xref": 400,
+            "on_state": "fasting"
+        },
+        "prenatal": {
+            "type": "CheckBox",
+            "pdf_field_name": "hermatology1.6",
+            "field_xref": 401,
+            "on_state": "fasting"
+        },
+        "repeat_prenatal_antibodies": {
+            "type": "CheckBox",
+            "pdf_field_name": "hermatology1.7",
+            "field_xref": 402,
+            "on_state": "fasting"
+        },
+        "cervical": {
+            "type": "CheckBox",
+            "pdf_field_name": "hermatology1.8",
+            "field_xref": 403,
+            "on_state": "fasting"
+        },
+        "vaginal": {
+            "type": "CheckBox",
+            "pdf_field_name": "hermatology1.9",
+            "field_xref": 404,
+            "on_state": "fasting"
+        },
+        "vaginal_rectal": {
+            "type": "CheckBox",
+            "pdf_field_name": "hermatology1.10",
+            "field_xref": 405,
+            "on_state": "fasting"
+        },
+        "chlamydia": {
+            "type": "CheckBox",
+            "pdf_field_name": "hermatology1.11",
+            "field_xref": 406,
+            "on_state": "fasting"
+        },
+        "gc": {
+            "type": "CheckBox",
+            "pdf_field_name": "hermatology1.12",
+            "field_xref": 407,
+            "on_state": "fasting"
+        },
+        "sputum": {
+            "type": "CheckBox",
+            "pdf_field_name": "hermatology1.13",
+            "field_xref": 408,
+            "on_state": "fasting"
+        },
+        "throat": {
+            "type": "CheckBox",
+            "pdf_field_name": "hermatology1.14",
+            "field_xref": 409,
+            "on_state": "fasting"
+        },
+        "wound": {
+            "type": "CheckBox",
+            "pdf_field_name": "hermatology1.15",
+            "field_xref": 410,
+            "on_state": "fasting"
+        },
+        "urine": {
+            "type": "CheckBox",
+            "pdf_field_name": "hermatology1.16",
+            "field_xref": 411,
+            "on_state": "fasting"
+        },
+        "stool_culture": {
+            "type": "CheckBox",
+            "pdf_field_name": "hermatology1.17",
+            "field_xref": 412,
+            "on_state": "fasting"
+        },
+        "stool_ova_parasites": {
+            "type": "CheckBox",
+            "pdf_field_name": "hermatology1.18",
+            "field_xref": 413,
+            "on_state": "fasting"
+        },
+        "other_swabs": {
+            "type": "CheckBox",
+            "pdf_field_name": "hermatology1.19",
+            "field_xref": 414,
+            "on_state": "fasting"
+        }
+
+    }
+}
